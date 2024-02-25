@@ -15,29 +15,29 @@ This project is led by [Xiaofan Liang](https://www.xiaofanliang.com/) at Univers
 ## Data 
 We shared city-level network and socioeconomic attributes for social media, mobility, and scientific collaboration networks in both China and the U.S. The spatial unit is municipal city in China, and Metropolitan Statistical Area in the U.S.
 
-China’s social media network data were collected from Weibo (Chinese Twitter) in 2015. U.S. social media network data comes from Facebook’s publicly available [Social Connectedness Index (SCI)](https://data.humdata.org/dataset/social-connectedness-index?). 
+**Social Media Network**: China’s social media network data were collected from Weibo (Chinese Twitter) in 2015. U.S. social media network data comes from Facebook’s publicly available [Social Connectedness Index (SCI)](https://data.humdata.org/dataset/social-connectedness-index?). 
 
-China’s mobility network data were collected from Tencent Map in 2016. U.S. mobility network data comes from the [Multiscale Dynamic Human Mobility Flow Dataset](https://github.com/GeoDS/COVID19USFlows) organized by UW GeoDS Lab, which provides estimations of total population flow between counties based on the SafeGraph data. We use the 2019 weekly flow data (12 months) aggregated to the MSA level. 
+**Mobility Network**: China’s mobility network data were collected from Tencent Map in 2016. U.S. mobility network data comes from the [Multiscale Dynamic Human Mobility Flow Dataset](https://github.com/GeoDS/COVID19USFlows) organized by UW GeoDS Lab, which provides estimations of total population flow between counties based on the SafeGraph data. We use the 2019 weekly flow data (12 months) aggregated to the MSA level. 
 
-Both China and the U.S.'s scientific collaboration network data were collected from the Web of Science in 2017. We derive the collaboration network from co-publication (co-authorship) relationships. 
+**Scientific Collaboration Network**: Both China and the U.S.'s scientific collaboration network data were collected from the Web of Science in 2017. We derive the collaboration network from co-publication (co-authorship) relationships. 
 
 Two datasets are shared for DOWNLOAD: [US_Public.csv](https://github.com/xiaofanliang/intercity_connectivity/blob/main/Data/US_Public.csv) and [CN_Public.csv](https://github.com/xiaofanliang/intercity_connectivity/blob/main/Data/CN_Public.csv). Both datasets are filtered so that cities have information in all attributes. 
 
-US_Public.csv contains the following columns for 366 MSAs:
+**US_Public.csv** contains the following columns for 366 MSAs:
 
 * **msaId**: U.S. Census designated Metropolitan Statistical Area (MSA) ID
 * **msaName**: Name of the Metropolitan Statistical Area
 * **Lon**: The longitude of a MSA's centroid 
 * **Lat**: The latitude of a MSA's centroid
-* **Res_pop**: A MSA's resident population (2019) collected from U.S. Bureau of Economic Analysis 
-* **GDP**: A MSA's GDP (2019) collected from U.S. Bureau of Economic Analysis 
-* **Bachelor_pct**: A MSA's percentage of population with a Bachelor's degree (2019) collected from U.S. Bureau of Economic Analysis 
-* **Patent**: Number of patent from PatentViews, aggregated based on inventors' geographic locations. 
-* **SM_degree_scaled**: A MSA's total Facebook SM (Social Media) connections (i.e., degree). Note that this value does not indicate the absolute number of connections to a MSA; it is scaled by Social Connectedness Index and thus preserve the relative strength for mapping purpose. 
-* **Mob_degree**: A MSA's total mobility connections (i.e., degree), collected from GeoDS Lab's Multiscale Dynamic Human Mobility Flow Dataset.
-* **Pub_degree**: A MSA's total co-publication count (i.e., degree), collected from Web of Science. 
+* **Res_pop**: A MSA's resident population collected from U.S. Bureau of Economic Analysis (2019).
+* **GDP**: A MSA's GDP collected from U.S. Bureau of Economic Analysis (2019).
+* **Bachelor_pct**: A MSA's percentage of population with a Bachelor's degree collected from U.S. Bureau of Economic Analysis (2019).
+* **Patent**: Number of patent from PatentViews, aggregated based on inventors' geographic locations (2019). 
+* **SM_degree_scaled**: A MSA's total Facebook SM (Social Media) connections (i.e., degree) (2020). Note that this value does not indicate the absolute number of connections to a MSA; it is scaled by Social Connectedness Index and thus preserve the relative strength for mapping purpose. 
+* **Mob_degree**: A MSA's total mobility connections (i.e., degree), collected from GeoDS Lab's Multiscale Dynamic Human Mobility Flow Dataset (2019).
+* **Pub_degree**: A MSA's total co-publication count (i.e., degree), collected from Web of Science (2019). 
 
-CN_Public.csv contains the following columns for 275 cities:
+**CN_Public.csv** contains the following columns for 275 cities:
 
 * **cityId**: China Census designated municipal city ID
 * **cityName_CN**: Name of a city in Mandarin 
@@ -49,9 +49,9 @@ CN_Public.csv contains the following columns for 275 cities:
 * **GDP**: A city's GDP collected from China City Statistical Yearbook (2016).
 * **Employ_pct**: A city's percentage of population employed in information, finance, and research industries collected from China City Statistical Yearbook (2016); this is used to approximate the percentage of population with a Bachelor's degree. 
 * **Patent**: A city's number of patent from China National Intellectual Property Administration (2017). 
-* **SM_degree**: A city's number of social media connections (i.e., degree), collected from Weibo. 
-* **Mob_degree**: A city's total mobility connections (i.e., degree), collected from Tencent.
-* **Pub_degree**: A city's total co-publication count (i.e., degree), collected from Web of Science. 
+* **SM_degree**: A city's number of social media connections (i.e., degree), collected from Weibo (2015). 
+* **Mob_degree**: A city's total mobility connections (i.e., degree), collected from Tencent (2016).
+* **Pub_degree**: A city's total co-publication count (i.e., degree), collected from Web of Science (2017). 
 
 
 **If you are interested in an academic or nonprofit collaboration using the full network dataset, please contact Xiaofan Liang for U.S. network data at xfliang@umich.edu or Jianghao Wang for China network data at wangjh@lreis.ac.cn.**
