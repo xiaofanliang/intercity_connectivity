@@ -1,4 +1,4 @@
-"msaId","msa_Name","Lon","Lat","Res_pop","GDP","Bachelor_pct","Patent","FS_degree_scaled","Mob_degree","Pub_degree"
+"msaId","msa_Name","Lon","Lat","Res_pop","GDP","Bachelor_pct","Patent","SM_degree_scaled","Mob_degree","Pub_degree"
 12020,"Athens-Clarke County, GA",-83.2138965,33.943984,213750,10618507,23,61,123446201,836483,4200
 12060,"Atlanta-Sandy Springs-Alpharetta, GA",-84.3999113,33.693728,6020364,422189461,25,2972,2759702816,10185112,22821
 12100,"Atlantic City-Hammonton, NJ",-74.6337591,39.4693555,263670,14718904,20,19,140748123,1693435,69

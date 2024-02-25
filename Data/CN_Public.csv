@@ -1,4 +1,4 @@
-"cityId","cityName_CN","cityName_EN","Lon","Lat","Regis_pop","Res_pop","GDP","Employ_pct","Patent","FS_degree","Mob_degree","Pub_degree"
+"cityId","cityName_CN","cityName_EN","Lon","Lat","Regis_pop","Res_pop","GDP","Employ_pct","Patent","SM_degree","Mob_degree","Pub_degree"
 310100,"上海","Shanghai",121.42,31.1878,14500000,24161000,2.817865e+12,5.896,72327,175620430,5273600,16132
 110100,"北京","Beijing",116.41,40.185,13630000,21729000,2.566913e+12,13.912,106499,414486000,6160691,35119
 440300,"深圳","Shenzhen",114.134,22.6584,3850000,11908400,1949260120000,9.955,93805,69313006,4576108,5100
