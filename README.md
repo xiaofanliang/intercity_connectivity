@@ -1,6 +1,6 @@
 # Intercity Connectivity and Innovation 
 
-![Interactive Data Dashboard for Intercity Networks and Innovation](dashboard.png)
+![Interactive Data Dashboard for Intercity Networks and Innovation](intercityConnectivity.gif)
 
 
 [TAKE ME TO THE MAP!](https://xiaofanliang.github.io/intercity_connectivity/)
@@ -68,11 +68,9 @@ We use **patent count** and also patent count by patent complexity (i.e., patent
 
 We compared population-based scaling models with and without intercity connectivity variables and found that models incorporating network metrics outperform population-only models at predicting patent count across cities, especially for more complex patents. We further explored cities with high and low intercity connectivity and their residuals in the scaling of innovation and found that high intercity connectivity and outstanding patent count are correlated for some cities, more so for those in China, than the U.S., especially after controlling for GDP and education. 
 
-To see our graphics and read more details abotu the research, please refer to our publication: PLACE_HOLDER
+To see our graphics and read more details about the research, please refer to our publication at Computers, Environment and Urban Systems: https://www.sciencedirect.com/science/article/pii/S0198971524000218
 
 ## Citation
 If you use this dataset and/or our metrics, please cite our publication: 
 
-
-
-## Acknowledgements
+Liang, X., Hidalgo, C. A., Balland, P. A., Zheng, S., & Wang, J. (2024). Intercity connectivity and urban innovation. Computers, Environment and Urban Systems, 109, 102092.
