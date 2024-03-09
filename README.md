@@ -5,6 +5,7 @@
 
 [TAKE ME TO THE MAP!](https://xiaofanliang.github.io/intercity_connectivity/)
 [TAKE ME TO THE DATA!](https://github.com/xiaofanliang/intercity_connectivity/tree/main/Data)
+[TAKE ME TO THE PAPER!](https://centerforcollectivelearning.org/s/Intercity-connectivity.pdf)
 
 **Interpret the Vis**: Each node in the network represents a city in China or the U.S. Each edge represents a social media, mobility, or scientific collaboration connection. Node color and size are scaled by the city's patent count. Edge color and size are scaled by the weighted network degree (i.e., number of connections). The vis only shows selected edges above certain weights. 
 
@@ -13,6 +14,8 @@
 ## Project background
 
 Urban outputs, from economy to innovation, are known to grow as a power of a city’s population. But, since large cities tend to be central in transportation and communication networks, the effects attributed to city size may be confounded with those of intercity connectivity. Here, we map intercity networks for the world’s two largest economies (the United States and China) to explore whether a city’s position in the networks of communication, human mobility, and scientific collaboration explains variance in a city's patenting activity that is unaccounted for by its population. We find evidence that models incorporating intercity connectivity outperform population-based models and exhibit stronger predictive power for patenting activity, particularly for technologies of more recent vintage (which we expect to be more complex or sophisticated). The effects of intercity connectivity are more robust in China, even after controlling for population, GDP, and education, but not in the United States once adjusting for GDP and education. For Chinese cities, social media and mobility networks explain better intercity heterogeneities in the scaling of innovation, whereas for cities in the United States, the scientific collaboration network plays a more significant role. These findings support the significance of a city’s position within the intercity network in shaping its success in innovative activities.
+
+Read the published manuscript PDF [here](https://centerforcollectivelearning.org/s/Intercity-connectivity.pdf).
 
 This project is led by [Xiaofan Liang](https://www.xiaofanliang.com/) at University of Michigan - Ann Arbor, [César A. Hidalgo](https://cesarhidalgo.com/) at University of Toulouse, [Pierre-Alexandre Balland](https://www.paballand.com/) at Utrecht University, [Siqi Zheng](https://www.siqizheng.com/) at MIT, and [Jianghao Wang](http://www.lreis.ac.cn/en/People/ARP/202005/t20200519_560151.html) at Chinese Academy of Sciences. 
 
