@@ -17,7 +17,7 @@ Urban outputs, from economy to innovation, are known to grow as a power of a cit
 
 Read the published manuscript PDF [here](https://centerforcollectivelearning.org/s/Intercity-connectivity.pdf).
 
-This project is led by [Xiaofan Liang](https://www.xiaofanliang.com/) at University of Michigan - Ann Arbor, [César A. Hidalgo](https://cesarhidalgo.com/) at University of Toulouse, [Pierre-Alexandre Balland](https://www.paballand.com/) at Utrecht University, [Siqi Zheng](https://www.siqizheng.com/) at MIT, and [Jianghao Wang](http://www.lreis.ac.cn/en/People/ARP/202005/t20200519_560151.html) at Chinese Academy of Sciences. 
+This project is led by [Xiaofan Liang](https://www.xiaofanliang.com/) at University of Michigan - Ann Arbor, [César A. Hidalgo](https://cesarhidalgo.com/), Center for Collective Learning, Toulouse School of Economics and Corvinus University of Budapest, [Pierre-Alexandre Balland](https://www.paballand.com/) at Utrecht University, [Siqi Zheng](https://www.siqizheng.com/) at MIT, and [Jianghao Wang](http://www.lreis.ac.cn/en/People/ARP/202005/t20200519_560151.html) at Chinese Academy of Sciences. 
 
 ## Data 
 We shared city-level network and socioeconomic attributes for social media, mobility, and scientific collaboration networks in both China and the U.S. The spatial unit is municipal city in China, and Metropolitan Statistical Area in the U.S.
